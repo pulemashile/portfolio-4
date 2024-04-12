@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Portfolio</title>
+    <style>
+      header {
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+      }
+
+      nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      nav img {
+        width: 100px;
+      }
+
+      nav ul {
+        list-style-type: none;
+        display: flex;
+      }
+
+      nav ul li {
+        margin-right: 10px;
+      }
+
+      nav ul li a {
+        text-decoration: none;
+        color: #fff;
+      }
+
+      main {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+      }
+
+  
+
+      .content {
+        display: flex;
+        align-items: center;
+        width: 50%;
+      }
+
+      .content h1 {
+        font-size: 24px;
+        margin-bottom: 10px;
+      }
+
+      .content p {
+        font-size: 16px;
+        margin-bottom: 0;
+      }
+
+    
+      footer {
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      footer div a {
+        color: #fff;
+        margin-right: 10px;
+        text-decoration: none;
+      }
+
+      footer div a:last-child {
+        margin-right: 0;
+      }
+
+      footer div iframe {
+        border: 0;
+        width: 300px;
+        height: 200px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <img src="./assets/images/t_free-vector-heart-design2328.logowik.com.webp"/>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Me</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <form action="/action_page.php">
+        <label for="fname">First name:</label><br />
+        <input type="text" id="fname" name="fname" value="" /><br />
+        <label for="lname">Last name:</label><br />
+        <input type="text" id="lname" name="lname" value="" /><br /><br />
+        <input type="submit" value="Submit" />
+      </form>
+    </main>
+
+    <footer>
+      <div>
+        <a href="https://www.facebook.com">Facebook</a>
+        <a href="https://www.twitter.com">Twitter</a>
+        <a href="https://www.instagram.com">Instagram</a>
+      </div>
+      <div>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.382361435181!2d-74.0060
+      87!3d40.712776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259f0f7f5c95d%3A0x2edf
+      ab0dbb4d5287!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2suk!4v1628873477119!5m2!1sen!2suk"
+          width="400"
+          height="300"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+        ></iframe>
+      </div>
+    </footer>
+  </body>
+</html>
