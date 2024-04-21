@@ -85,6 +85,7 @@
         height: 200px;
       }
     </style>
+    <script src="./contact.js" defer></script>
   </head>
   <body>
     <header>
@@ -99,19 +100,19 @@
     </header>
 
     <main>
-      <form action="/action_page.php">
+      <form onsubmit="handleFormSubmit(event)">
         
-        <label for="fname">First name:</label><br />
-        <input type="text" id="fname" name="fname" value="" /><br />
+        <label for="name">name:</label><br />
+        <input type="text" id="fname" name="name" required/><br />
 
-        <label for="lname">Last name:</label><br />
-        <input type="text" id="lname" name="lname" value="" /><br />
+        <label for="surname">surname:</label><br />
+        <input type="text" id="lname" name="surname" required /><br />
 
-        <label for="lname">Email Address:</label><br />
-        <input type="text" id="lname" name="lname" value="" /><br />
+        <label for="email">Email Address:</label><br />
+        <input type="email" id="Email" name="email" required /><br />
 
-        <label for="lname">Message:</label><br />
-        <textarea type="text" id="lname" name="lname" value="" ></textarea><br /><br />
+        <label for="message">Message:</label><br/>
+        <textarea type="text" id="Message" name="Message" required ></textarea><br /><br />
 
         <input type="submit" value="Submit" />
       </form>
