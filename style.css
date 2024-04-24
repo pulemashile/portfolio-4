@@ -39,7 +39,8 @@ main {
 .content {
     display: flex;
     align-items: center;
-    width: 50%;
+    gap: 100px;
+    margin-top: 10px;
 }
 
 .content h1 {
@@ -77,8 +78,8 @@ footer div a:last-child {
 
 footer div iframe {
     border: 0;
-    width: 300px;
-    height: 200px;
+    width: 270px;
+    height: 270px;
 }
 
 .icon{
@@ -95,4 +96,10 @@ footer div iframe {
 .media{
     display: flex;
     gap: 3%;
+}
+
+.image{
+    border-radius: 100%;
+    width: 300px;
+    height: 300px;
 }
